@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:id="@+id/img_widget"
+        android:layout_width="@dimen/layout_w"
+        android:layout_height="@dimen/layout_h"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/bgp3"
+        />
+
+</RelativeLayout>

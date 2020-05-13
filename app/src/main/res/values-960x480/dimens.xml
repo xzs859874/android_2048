@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">12dp</dimen>
+    <dimen name="layout_marginTop1">40dp</dimen>
+    <dimen name="textSize1">20sp</dimen>
+    <dimen name="textSize2">50sp</dimen>
+    <dimen name="layout_marginTop2">80dp</dimen>
+    <dimen name="layout_marginBottom">45dp</dimen>
+    <dimen name="layout_width">80dp</dimen>
+    <dimen name="layout_height">80dp</dimen>
+    <dimen name="layout_marginLeft">9dp</dimen>
+    <dimen name="layout_marginTop3">9dp</dimen>
+    <dimen name="layout_marginTop4">45dp</dimen>
+    <dimen name="layout_w">60dp</dimen>
+    <dimen name="layout_h">60dp</dimen>
+</resources>

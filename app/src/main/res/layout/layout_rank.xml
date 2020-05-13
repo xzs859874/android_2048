@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        >
+        <TextView
+            android:id="@+id/rank_num"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/rank_num"
+            android:layout_weight="1"
+            android:textColor="#EE4000"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/rank_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/rank_id"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textColor="#B452CD"
+            android:gravity="center"
+
+
+            />
+
+        <TextView
+            android:id="@+id/rank_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/rank_name"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textColor="#55EE00"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/rank_score"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/rank_score"
+            android:layout_weight="1"
+            android:textColor="#616161"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"/>
+
+</LinearLayout>

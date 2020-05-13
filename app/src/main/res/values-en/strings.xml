@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name" >2048</string>
+    <string name="score" >score:</string>
+    <string name="rank">RANK</string>
+    <string name="start">start</string>
+    <string name="goon">continue</string>
+    <string name="language">language</string>
+    <string name="overgame">Game over</string>
+    <string name="timer">Timer</string>
+    <string name="save">save game</string>
+    <string name="restart">restart</string>
+    <string name="backindex">back menu</string>
+    <string name="rank_id">user_id</string>
+    <string name="rank_name">user_name</string>
+    <string name="rank_score">score</string>
+    <string name="rank_num">Num</string>
+    <string name="back_home">back</string>
+    <string name="add_widget">Add Widget</string>
+    <string name="welcome">Welcome to 2048</string>
+   <string name="clearAll">clear all</string>
+    <string name="over_tip_p">Game over! yours score is: </string>
+    <string name="over_tip_l">Please give me your name?</string>
+    <string name="save_tip_success">save record success </string>
+    <string name="save_record">save record</string>
+    <string name="save_jd">save data success！</string>
+    <string name="save_tip_1">It will back menu,Do you save data?</string>
+    <string name="save_yes">YES</string>
+    <string name="save_no">NO</string>
+</resources>

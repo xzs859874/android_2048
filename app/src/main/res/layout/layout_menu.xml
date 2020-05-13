@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:launchMode="singleTask"
+    android:background="@mipmap/bgp"
+    >
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2048"
+        android:layout_weight="10"
+        android:textSize="@dimen/textSize2"
+        android:textColor="#800080"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/layout_marginTop2"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="60"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+          >
+
+        <Button
+            android:id="@+id/start_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+        <!--android:layout_below="@id/start_game"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <Button
+            android:id="@+id/continue_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/goon"
+           />
+
+        <Button
+            android:id="@+id/rank_button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/rank"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/language"
+            android:text="@string/language"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/over_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/overgame"
+            />
+        <TextView
+            android:text="@string/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:gravity="bottom"
+            android:textColor="#970320"
+            android:layout_marginBottom="@dimen/layout_marginBottom"
+            />
+
+    </LinearLayout>
+</LinearLayout>

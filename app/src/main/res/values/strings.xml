@@ -1,0 +1,29 @@
+<resources>
+<string name="app_name">2048</string>
+<string name="score">分数:</string>
+<string name="rank">排行榜</string>
+<string name="start">开始游戏</string>
+<string name="goon">继续游戏</string>
+<string name="language">中英切换</string>
+<string name="overgame">游戏结束</string>
+<string name="timer">计时器</string>
+<string name="save">保存进度</string>
+<string name="restart">重新游戏</string>
+<string name="backindex">游戏菜单</string>
+<string name="rank_id">用户id</string>
+<string name="rank_name">用户名</string>
+<string name="rank_score">分数</string>
+<string name="rank_num">名次</string>
+<string name="back_home">返回菜单</string>
+<string name="add_widget">添加小部件</string>
+<string name="welcome">欢迎来到2048</string>
+<string name="clearAll">重置分数</string>
+<string name="over_tip_p">游戏结束!你的分数是</string>
+<string name="over_tip_l">请大侠留名？</string>
+<string name="save_tip_success">保存记录成功</string>
+<string name="save_record">保存记录</string>
+<string name="save_jd">保存数据成功！</string>
+<string name="save_tip_1">将要返回菜单,是否保存游戏?</string>
+<string name="save_yes">保存</string>
+<string name="save_no">不保存</string>
+</resources>
